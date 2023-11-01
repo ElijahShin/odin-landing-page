@@ -90,13 +90,14 @@ h2 {
 }
 
 li a,  
-.sect01-left-hero p {
+.hero-info {
   font-size: 18px;
   color: #E5E7EB;
 }
 
 button {
   background-color: #3882F6;
+  color: #F9FAF8;
 }
 
 blockquote {
@@ -112,10 +113,10 @@ blockquote {
 .sect03,
 .sect04,
 footer {
-  padding: 0 15vw 0 15vw;
+  padding: 0 17vw 0 17vw;
 }
 .header-wrapper {
-  padding: 15px 15vw 60px 15vw;
+  padding: 15px 17vw 80px 17vw;
 
 }
 
@@ -138,11 +139,24 @@ ul {
   gap: 15px;
 }
 
+/* Section 1 */
+
 .sect01{
+  height: 275px;
   display: flex;
+  justify-content: space-between;
+  padding-bottom: 85px;
 }
 
 .sect01-left-hero {
+  width: 55%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  width: 90px;
+  height: 20px;
+  border-radius: 5px;
 }
