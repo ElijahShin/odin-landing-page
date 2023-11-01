@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Additional resets */
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Box-sizing */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*Style begin below*/
+
+/* Font styles */
+body {
+  font-family:'Lucida Sans', Verdana, sans-serif
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+li a,  
+.sect01-left-hero p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1F2937;
+}
+
+/* Layout Left, right gutters */
+.sect01,
+.sect02,
+.sect03,
+.sect04,
+footer {
+  padding: 0 15vw 0 15vw;
+}
+.header-wrapper {
+  padding: 15px 15vw 60px 15vw;
+
+}
+
+/* Color Styles */
+.header-wrapper,
+.sect01 {
+  background-color: #1F2937;
+}
+
+/* Styles */
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.sect01{
+  display: flex;
+}
+
+.sect01-left-hero {
+  display: flex;
+  flex-direction: column;
+}
