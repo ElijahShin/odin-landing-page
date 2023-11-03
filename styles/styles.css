@@ -96,6 +96,7 @@ li a,
 }
 
 button {
+  border-radius: 8px;
   background-color: #3882F6;
   color: #F9FAF8;
 }
@@ -107,20 +108,32 @@ blockquote {
   color: #1F2937;
 }
 
+.cta h4,
+.cta p {
+  color: #F9FAF8;
+}
+
+.cta h4 {
+  font-weight: bold;
+}
+
+.cta p {
+  color: #E5E7EB;
+}
 /* Layout Left, right gutters */
 .sect01,
 .sect03,
 .sect04,
 footer {
-  padding: 0 17vw 0 17vw;
+  padding: 0 23vw;
 }
 
 .sect02 {
-  padding: 0 24vw 0 24vw;
+  padding: 0 30vw 0 30vw;
 }
 
 .header-wrapper {
-  padding: 15px 17vw 80px 17vw;
+  padding: 15px 23vw 75px 23vw;
 
 }
 
@@ -130,6 +143,9 @@ footer {
   background-color: #1F2937;
 }
 
+.sect03 {
+  background-color: #E5E7EB;
+}
 /* Styles */
 
 .header-wrapper {
@@ -143,34 +159,51 @@ ul {
   gap: 15px;
 }
 
+
 /* Section 1 */
 
 .sect01{
   display: flex;
-  justify-content: space-between;
   
 }
 
 .sect01-inner-wrapper {
   display: flex;
-  padding-bottom: 85px;
+  justify-content: space-between;
+  padding-bottom: 75px;
 }
 
 .sect01-left-hero {
-  width: 55%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.sect01-right-hero {
+  width: 55%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sect01-left-hero button {
+  
+  padding: 10px 25px;
+
+}
+
+.hero-image {
+  width: 27vw;
+}
+
 .sect02 {
-  padding-top: 30px;
 }
 
 .sect02-inner-wrapper {
+  padding-top: 75px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 85px;
+  padding-bottom: 75px;
 }
 
 .sect02-title {
@@ -180,23 +213,22 @@ ul {
 
 .sect02-parent {
   display: flex;
+  justify-content: center;
+  gap: 60px;
   padding-top: 30px;
   
 }
 
 .sect02-child {
-  padding: 0 0 0 15px;
-}
-
-.sect02-child {
   display: flex;
+  width: 184px;
   flex-direction: column;
   align-items: center;
 }
 
 .sect02-child img {
-  width: 150px;
-  height: 125px;
+  height: 190px;
+  border-radius: 8px;
 }
 
 .sect02-caption {
@@ -204,9 +236,44 @@ ul {
   text-align: center;
 }
 
-
-button {
-  width: 90px;
-  height: 20px;
-  border-radius: 5px;
+.sect03 {
+  display: flex;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
+.sect03-parent {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.sect04 {
+  display: flex;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.sect04-parent {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  border-radius: 8px;
+  background-color: #3882F6;
+  
+  padding: 35px 40px 35px 40px;
+}
+
+.cta {
+
+}
+
+.cta-btn {
+  border: 2px solid #F9FAF8;
+  
+}
+
+.cta button {
+  border-radius: 5px;
+  padding: 10px 25px;
+}
+
