@@ -109,12 +109,16 @@ blockquote {
 
 /* Layout Left, right gutters */
 .sect01,
-.sect02,
 .sect03,
 .sect04,
 footer {
   padding: 0 17vw 0 17vw;
 }
+
+.sect02 {
+  padding: 0 24vw 0 24vw;
+}
+
 .header-wrapper {
   padding: 15px 17vw 80px 17vw;
 
@@ -142,9 +146,13 @@ ul {
 /* Section 1 */
 
 .sect01{
-  height: 275px;
   display: flex;
   justify-content: space-between;
+  
+}
+
+.sect01-inner-wrapper {
+  display: flex;
   padding-bottom: 85px;
 }
 
@@ -154,6 +162,48 @@ ul {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.sect02 {
+  padding-top: 30px;
+}
+
+.sect02-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 85px;
+}
+
+.sect02-title {
+  
+  text-align: center;
+}
+
+.sect02-parent {
+  display: flex;
+  padding-top: 30px;
+  
+}
+
+.sect02-child {
+  padding: 0 0 0 15px;
+}
+
+.sect02-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sect02-child img {
+  width: 150px;
+  height: 125px;
+}
+
+.sect02-caption {
+  padding-top: 15px;
+  text-align: center;
+}
+
 
 button {
   width: 90px;
