@@ -116,11 +116,11 @@ footer {
 }
 
 .sect02 {
-  padding: 0 24vw 0 24vw;
+  padding: 0 30vw 0 30vw;
 }
 
 .header-wrapper {
-  padding: 15px 17vw 80px 17vw;
+  padding: 15px 17vw 75px 17vw;
 
 }
 
@@ -130,6 +130,9 @@ footer {
   background-color: #1F2937;
 }
 
+.sect03 {
+  background-color: #E5E7EB;
+}
 /* Styles */
 
 .header-wrapper {
@@ -147,13 +150,13 @@ ul {
 
 .sect01{
   display: flex;
-  justify-content: space-between;
   
 }
 
 .sect01-inner-wrapper {
   display: flex;
-  padding-bottom: 85px;
+  justify-content: space-between;
+  padding-bottom: 75px;
 }
 
 .sect01-left-hero {
@@ -163,14 +166,18 @@ ul {
   justify-content: space-between;
 }
 
+.hero-image {
+  width: 27vw;
+}
+
 .sect02 {
-  padding-top: 30px;
 }
 
 .sect02-inner-wrapper {
+  padding-top: 75px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 85px;
+  padding-bottom: 75px;
 }
 
 .sect02-title {
@@ -180,23 +187,22 @@ ul {
 
 .sect02-parent {
   display: flex;
+  justify-content: center;
+  gap: 60px;
   padding-top: 30px;
   
 }
 
 .sect02-child {
-  padding: 0 0 0 15px;
-}
-
-.sect02-child {
   display: flex;
+  width: 184px;
   flex-direction: column;
   align-items: center;
 }
 
 .sect02-child img {
-  width: 150px;
-  height: 125px;
+  height: 190px;
+  border-radius: 8px;
 }
 
 .sect02-caption {
@@ -204,6 +210,16 @@ ul {
   text-align: center;
 }
 
+.sect03 {
+  display: flex;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.sect03-parent {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
 
 button {
   width: 90px;
