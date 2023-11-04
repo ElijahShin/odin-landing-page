@@ -120,20 +120,24 @@ blockquote {
 .cta p {
   color: #E5E7EB;
 }
+
+footer {
+color: #F9FAF8;
+  background-color: #1F2937;
+}
 /* Layout Left, right gutters */
 .sect01,
 .sect03,
-.sect04,
-footer {
-  padding: 0 23vw;
+.sect04 {
+  padding: 0 22vw;
 }
 
 .sect02 {
-  padding: 0 30vw 0 30vw;
+  /* padding: 0 30vw 0 30vw; */
 }
 
 .header-wrapper {
-  padding: 15px 23vw 75px 23vw;
+  padding: 15px 22vw 75px 22vw;
 
 }
 
@@ -277,3 +281,9 @@ ul {
   padding: 10px 25px;
 }
 
+footer {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
