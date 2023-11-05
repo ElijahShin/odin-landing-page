@@ -47,6 +47,13 @@ table {
 	border-spacing: 0;
 }
 /* Additional resets */
+p {
+  line-height: 1.3;
+}
+
+blockquote {
+  line-height: 1.3;
+}
 button {
   border: none;
 }
@@ -103,7 +110,7 @@ button {
 
 blockquote {
   font-size: 36px;
-  font-weight: light;
+  font-weight: 100;
   font-style: italic;
   color: #1F2937;
 }
@@ -132,12 +139,8 @@ color: #F9FAF8;
   padding: 0 22vw;
 }
 
-.sect02 {
-  /* padding: 0 30vw 0 30vw; */
-}
-
 .header-wrapper {
-  padding: 15px 22vw 75px 22vw;
+  padding: 30px 22vw 100px 22vw;
 
 }
 
@@ -174,7 +177,7 @@ ul {
 .sect01-inner-wrapper {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 75px;
+  padding-bottom: 120px;
 }
 
 .sect01-left-hero {
@@ -191,27 +194,26 @@ ul {
 }
 
 .sect01-left-hero button {
-  
+  width: 99px;
+  height: 39px;
   padding: 10px 25px;
 
 }
 
 .hero-image {
   width: 27vw;
+  height: 225px;
+  border-radius: 8px;
 }
 
 .sect02 {
-}
-
-.sect02-inner-wrapper {
-  padding-top: 75px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 75px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .sect02-title {
-  
   text-align: center;
 }
 
@@ -242,19 +244,21 @@ ul {
 
 .sect03 {
   display: flex;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .sect03-parent {
   display: flex;
-  align-items: flex-end;
   flex-direction: column;
+  align-items: flex-end;
+  width: 935px;
 }
 
 .sect04 {
   display: flex;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 85px;
+  padding-bottom: 85px;
 }
 
 .sect04-parent {
@@ -263,21 +267,12 @@ ul {
   flex-grow: 1;
   border-radius: 8px;
   background-color: #3882F6;
-  
-  padding: 35px 40px 35px 40px;
+  padding: 45px 70px;
 }
 
-.cta {
-
-}
 
 .cta-btn {
   border: 2px solid #F9FAF8;
-  
-}
-
-.cta button {
-  border-radius: 5px;
   padding: 10px 25px;
 }
 
